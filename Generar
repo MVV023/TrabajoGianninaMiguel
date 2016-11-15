@@ -10,3 +10,9 @@ def generar():
 
 
     return milista
+    
+def comprobar(milista,lista):
+    if milista in lista:
+        return false
+    else:
+        return true
